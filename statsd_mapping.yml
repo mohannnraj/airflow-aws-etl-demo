@@ -1,0 +1,10 @@
+mappings:
+- match: "airflow.*.success"
+  name: "airflow_task_success_total"
+  labels:
+    task: "$1"
+
+- match: "airflow.*.failure"
+  name: "airflow_task_failure_total"
+  labels:
+    task: "$1"
