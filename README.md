@@ -1,3 +1,6 @@
+## Architecture Diagram
+![Airflow Architecture](images/architecture-diagram.png)
+
 
 # airflow-aws-etl-demo
 
