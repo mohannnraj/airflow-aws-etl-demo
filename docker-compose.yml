@@ -39,7 +39,7 @@ services:
     command: scheduler
 
   statsd-exporter:
-    image: prom/statsd-exporter:0.23.0
+    image: prom/statsd-exporter:latest
     ports:
       - "9102:9102"       # HTTP /metrics for Prometheus
       - "9125:9125/udp"   # StatsD UDP listener
